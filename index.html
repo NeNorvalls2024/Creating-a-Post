@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creating a Post</title>
+  </head>
+  <body id="body">
+    <div class="container">
+      <header>
+        <h1>Creating a Post</h1>
+      </header>
+      <main>
+        <section id="input">
+          <textarea
+            id="inputPost"
+            placeholder="What's inspiring you today?"
+          ></textarea>
+          <button id="addBtn" onclick="addPost()">Share</button>
+        </section>
+        <section id="new">
+          <b><span id="count">0</span></b> post(s)!
+        </section>
+        <section class="post-list"></section>
+      </main>
+    </div>
+  </body>
+</html>
